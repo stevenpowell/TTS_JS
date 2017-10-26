@@ -26,39 +26,39 @@ while (wins1 < 3 && puterwins < 3) {
 // End CPU Weapon
 
 // Game Referee
-  if (weaponOfChoice = "rock" && userweapon = "rock") {
+  if (weaponOfChoice === "rock" && userweapon === "rock") {
     console.log("tie game sucka!");
   }
-  else if (weaponOfChoice = "rock" && userweapon = "scissors") {
+  else if (weaponOfChoice === "rock" && userweapon === "scissors") {
     console.log("U R WINRAR!");
     wins1 = wins1++;
   }
-  else if (weaponOfChoice = "rock" && userweapon = "paper") {
+  else if (weaponOfChoice === "rock" && userweapon === "paper") {
     console.log("U DUN GOOFED!");
     puterwins = puterwins++;
   }
-  else if (weaponOfChoice = "paper" && userweapon = "scissors") {
+  else if (weaponOfChoice === "paper" && userweapon === "scissors") {
     console.log("U R WINRAR!");
     wins1 = wins1++;
   }
-  else if (weaponOfChoice = "paper" && userweapon = "paper") {
+  else if (weaponOfChoice === "paper" && userweapon === "paper") {
     console.log("tie game sucka!");
   }
-    else if (weaponOfChoice = "paper" && userweapon = "rock") {
+    else if (weaponOfChoice === "paper" && userweapon === "rock") {
       console.log("U DUN GOOFED!");
   }
-  else if (weaponOfChoice = "scissors" && userweapon = "scissors") {
+  else if (weaponOfChoice === "scissors" && userweapon === "scissors") {
     console.log("tie game sucka!");
   }
-  else if (weaponOfChoice = "scissors" && userweapon = "rock") {
+  else if (weaponOfChoice === "scissors" && userweapon === "rock") {
     console.log("U R WINRAR!");
     wins1 = wins1++;
   }
-  else if (weaponOfChoice = "scissors" && userweapon = "paper") {
+  else if (weaponOfChoice === "scissors" && userweapon === "paper") {
     console.log("U DUN GOOFED!");
     puterwins = puterwins++;
   }
-  else if (userweapon = "shotgun") {
+  else if (userweapon === "shotgun") {
     console.log("U R WINRAR!");
     wins1 = wins1++;
   }
